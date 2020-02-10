@@ -1,4 +1,7 @@
 spring:
+  redis:
+    host: 39.98.84.10
+    port: 6379
   datasource:
     url: jdbc:mysql://39.98.84.10/cloud?characterEncoding=utf-8&useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
